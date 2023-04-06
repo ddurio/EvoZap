@@ -1,0 +1,4 @@
+<Sheets>
+    <SpriteSheet name="InputIcons" texturePath="Data/Images/KenneyInput_modified.png" gridLayout="34,26"/>
+    <SpriteSheet name="Progression" texturePath="Data/Images/Progression_3x3.png" gridLayout="3,3"/>
+</Sheets>

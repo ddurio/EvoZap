@@ -1,0 +1,4 @@
+<Materials>
+    <Material id="FadeEffect" shader="Data/Shaders/FadeEffect.hlsl">
+    </Material>
+</Materials>

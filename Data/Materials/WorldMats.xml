@@ -1,0 +1,39 @@
+<Materials>
+    <Material id="brick" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/BrickColor.png" />
+    </Material>
+    <Material id="ColorfulBrick" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/ColorfulBrick.jpg" />
+    </Material>
+    <Material id="GlassPanes" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/GlassPanes.jpg" />
+    </Material>
+    <Material id="GlassBlock" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/GlassBlock.png" />
+    </Material>
+    <Material id="GlassShatter" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/GlassShatter.png" />
+    </Material>
+    <Material id="Background" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/PolygonBackground.png" />
+    </Material>
+    <Material id="bouncyBall0" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/BouncyBall0.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+    <Material id="bouncyBall1" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/BouncyBall1.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+    <Material id="bouncyBall2" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/BouncyBall2.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+    <Material id="bouncyBall3" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/BouncyBall3.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+    <Material id="ringBubble" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/RingBubble.png" />
+    </Material>
+</Materials>

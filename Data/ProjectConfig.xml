@@ -1,0 +1,9 @@
+<ProjectConfig name="DropZap (ddurio)" version="2">
+    <appFlags value="seed_rng"/>
+    <consoleFont value="TrebuchetMS"/>
+    <defaultFont value="SquirrelFixedFont"/>
+    <enableDebugKeys value="true"/>
+    <masterVolume value="0.50f"/>
+    <sfxVolume value="0.50f"/>
+    <showMainMenu value="false"/>
+</ProjectConfig>

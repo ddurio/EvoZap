@@ -1,0 +1,14 @@
+<Materials>
+    <Material id="PowerUp_plusOneBall" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/BouncyBall0.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+    <Material id="PowerUp_freeze" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/Snowflake.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+    <Material id="PowerUp_timesTwoHit" shader="BuiltIn/Unlit">
+        <Texture index="0" source="Data/Images/Sword.png" />
+        <Sampler index="0" uMode="clamp" vMode="clamp"/>
+    </Material>
+</Materials>
