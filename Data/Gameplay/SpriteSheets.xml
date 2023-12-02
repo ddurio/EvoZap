@@ -1,4 +1,4 @@
 <Sheets>
     <SpriteSheet name="InputIcons" texturePath="Data/Images/KenneyInput_modified.png" gridLayout="34,26"/>
-    <SpriteSheet name="Progression" texturePath="Data/Images/Progression_3x3.png" gridLayout="3,3"/>
+    <SpriteSheet name="GameplayIcons" texturePath="Data/Images/GameplayIcons_8x8.png" gridLayout="8,8"/>
 </Sheets>

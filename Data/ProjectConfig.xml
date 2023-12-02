@@ -1,4 +1,4 @@
-<ProjectConfig name="DropZap (ddurio)" version="2">
+<ProjectConfig name="EvoZap (ddurio)" version="2">
     <appFlags value="seed_rng"/>
     <consoleFont value="TrebuchetMS"/>
     <defaultFont value="SquirrelFixedFont"/>

@@ -1,44 +1,41 @@
 <Particles>
-    <SpriteSheet name="ZapParticles" texturePath="Data/Images/DurioParticles.png" gridLayout="9,9"/>
+    <SpriteSheet name="ZapParticles" texturePath="Data/Images/GameplayIcons_8x8.png" gridLayout="8,8"/>
     <Particle name="ZapLine" lifespan="99">
-        <RenderOption spriteCoords="0,6"/>
+        <RenderOption spriteCoords="1,1"/>
         <Rotation direction="spawn"/>
     </Particle>
     <Particle name="ZapSelf" lifespan="99">
-        <RenderOption spriteCoords="3,5"/>
-        <RenderOption spriteCoords="4,5"/>
-        <RenderOption spriteCoords="5,5"/>
-        <RenderOption spriteCoords="6,5"/>
+        <RenderOption spriteCoords="2,1"/>
+        <RenderOption spriteCoords="3,1"/>
+        <RenderOption spriteCoords="4,1"/>
+        <RenderOption spriteCoords="5,1"/>
         <Rotation direction="spawn"/>
     </Particle>
-    <Particle name="ZapIndex" lifespan="1">
-        <RenderOption spriteCoords="0,0" alphaEnd="0.f"/>
+    <Particle name="ZapImpact" lifespan="1">
+        <RenderOption spriteCoords="6,1" alphaEnd="0.f"/>
     </Particle>
-    <Particle name="ZapIndexGhost_Ring" lifespan="1">
-        <RenderOption spriteCoords="1,0" alphaEnd="0.f" scaleEnd="2"/>
-    </Particle>
-    <Particle name="ZapIndexGhost_Burst" lifespan="1">
-        <RenderOption spriteCoords="4,0" alphaEnd="0.f" scaleBase="0.1f"/>
+    <Particle name="GhostImpact_Burst" lifespan="1">
+        <RenderOption spriteCoords="3,2" alphaEnd="0.f" scaleBase="0.1f"/>
         <Movement speed="5~10"/>
     </Particle>
-    <Particle name="ZapIndexGhost">
-        <ChildParticle name="ZapIndexGhost_Ring"/>
-        <ChildParticle name="ZapIndexGhost_Burst" count="50"/>
+    <Particle name="GhostImpact">
+        <ChildParticle name="ZapImpact"/>
+        <ChildParticle name="GhostImpact_Burst" count="50"/>
     </Particle>
     <Particle name="ZapGhost" lifespan="99">
-        <RenderOption spriteCoords="5,6"/>
+        <RenderOption spriteCoords="7,1"/>
         <Rotation direction="both" speed="100"/>
     </Particle>
     <Particle name="ZapSpark" lifespan="0.1">
-        <RenderOption spriteCoords="0,0" tint="ORGANIC_YELLOW" alphaEnd="0.f"/>
+        <RenderOption spriteCoords="3,2" tint="ORGANIC_YELLOW" alphaEnd="0.f"/>
         <Movement coneWidthDegrees="270" speed="0~5"/>
         <Rotation direction="both" speed="200~400"/>
     </Particle>
     <Particle name="BallDestroyed_Ring" lifespan="1">
-        <RenderOption spriteCoords="1,0" alphaEnd="0.f" scaleStart=".6f" scaleEnd=".05f"/>
+        <RenderOption spriteCoords="1,2" alphaEnd="0.f" scaleStart=".6f" scaleEnd=".05f"/>
     </Particle>
     <Particle name="BallDestroyed_Burst" lifespan="2~4">
-        <RenderOption spriteCoords="8,6" alphaEnd="0.f" scaleBase="0.2f"/>
+        <RenderOption spriteCoords="2,2" alphaEnd="0.f" scaleBase="0.2f"/>
         <Movement speed="0~2" acceleration="0,-10"/>
         <Rotation speed="200~400"/>
     </Particle>
@@ -46,8 +43,8 @@
         <ChildParticle name="BallDestroyed_Ring"/>
         <ChildParticle name="BallDestroyed_Burst" count="50"/>
     </Particle>
-    <Particle name="BallShrunk" lifespan=".8f">
-        <RenderOption spriteCoords="1,8" alphaEnd="0.f" scaleBase="0.7f"/>
+    <Particle name="ObjProgress" lifespan=".8f">
+        <RenderOption spriteCoords="5,2" alphaEnd="0.f" scaleBase="0.7f"/>
         <Rotation direction="left" speed="180"/>
     </Particle>
 </Particles>
